@@ -72,11 +72,13 @@ _data = {
 "Move": SubResource("Animation_cohec")
 }
 
-[node name="Player" type="CharacterBody3D"]
+[node name="Player" type="CharacterBody3D" node_paths=PackedStringArray("animPlayerNode", "spriteNode")]
 script = ExtResource("1_wqm17")
+animPlayerNode = NodePath("AnimationPlayer")
+spriteNode = NodePath("Sprite3D")
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
-texture = ExtResource("1_pynwf")
+texture = ExtResource("2_7cs6x")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
