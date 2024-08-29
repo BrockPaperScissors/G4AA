@@ -1,10 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://cymybxuoibykl"]
+[gd_scene load_steps=2 format=3 uid="uid://cymybxuoibykl"]
 
-[ext_resource type="Script" path="res://Scripts/Main.cs" id="1_ci0s3"]
 [ext_resource type="PackedScene" uid="uid://cm2kvxysb2mbu" path="res://Scenes/Characters/Player/player.tscn" id="2_eunsk"]
 
 [node name="Main" type="Node3D"]
-script = ExtResource("1_ci0s3")
 
 [node name="Player" parent="." instance=ExtResource("2_eunsk")]
 
