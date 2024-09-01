@@ -29,14 +29,14 @@ public partial class Player : CharacterBody3D
             GameConstants.INPUT_MOVE_LEFT, GameConstants.INPUT_MOVE_RIGHT, GameConstants.INPUT_MOVE_FORWARD, GameConstants.INPUT_MOVE_BACKWARD
         );
 
-        if (direction == Vector2.Zero)
-        {
-            animPlayerNode.Play(GameConstants.ANIM_IDLE);
-        }
-        else
-        {
-            animPlayerNode.Play(GameConstants.ANIM_MOVE);
-        }
+        // if (direction == Vector2.Zero)
+        // {
+        //     animPlayerNode.Play(GameConstants.ANIM_IDLE);
+        // }
+        // else
+        // {
+        //     animPlayerNode.Play(GameConstants.ANIM_MOVE);
+        // }
     }
 
     private void Flip()
